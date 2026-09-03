@@ -1,0 +1,18 @@
+# Docker (From Basics to Advanced)
+## Basic Commands 
+### Smaller section
+| **Image** | **Category** | **Default Port** | **Sample Run Command** |
+| --- | --- | --- | --- |
+| **[nginx](ca://s?q=Pull_Nginx_Docker_image)** | Web server | 80 | ``docker ``run ``-d ``-p ``8080:80 ``nginx`` |
+| **[httpd](ca://s?q=Pull_Apache_httpd_Docker_image)** | Web server (Apache) | 80 | ``docker ``run ``-d ``-p ``8081:80 ``httpd`` |
+| **[caddy](ca://s?q=Pull_Caddy_Docker_image)** | Web server (auto HTTPS) | 80 | ``docker ``run ``-d ``-p ``8082:80 ``caddy`` |
+| **[mysql](ca://s?q=Pull_MySQL_Docker_image)** | Database | 3306 | ``docker ``run ``-d ``-p ``3306:3306 ``mysql`` |
+| **[postgres](ca://s?q=Pull_Postgres_Docker_image)** | Database | 5432 | ``docker ``run ``-d ``-p ``5432:5432 ``postgres`` |
+| **[mongo](ca://s?q=Pull_MongoDB_Docker_image)** | Database | 27017 | ``docker ``run ``-d ``-p ``27017:27017 ``mongo`` |
+| **[redis](ca://s?q=Pull_Redis_Docker_image)** | In‑memory store | 6379 | ``docker ``run ``-d ``-p ``6379:6379 ``redis`` |
+| **[jenkins](ca://s?q=Pull_Jenkins_Docker_image)** | CI/CD tool | 8080 | ``docker ``run ``-d ``-p ``8083:8080 ``jenkins/jenkins`` |
+| **[sonarqube](ca://s?q=Pull_SonarQube_Docker_image)** | Code quality tool | 9000 | ``docker ``run ``-d ``-p ``9000:9000 ``sonarqube`` |
+| **[rabbitmq](ca://s?q=Pull_RabbitMQ_Docker_image)** | Message broker | 5672 / 15672 | ``docker ``run ``-d ``-p ``5672:5672 ``-p ``15672:15672 ``rabbitmq`` |
+| **[ubuntu](ca://s?q=Pull_Ubuntu_Docker_image)** | Base OS | N/A | ``docker ``run ``-it ``ubuntu`` |
+| **[python](ca://s?q=Pull_Python_Docker_image)** | Runtime | N/A | ``docker ``run ``-it ``python`` |
+| **[node](ca://s?q=Pull_Node.js_Docker_image)** | Runtime | 3000 (typical app) | ``docker ``run ``-it ``-p ``3000:3000 ``node`` |
